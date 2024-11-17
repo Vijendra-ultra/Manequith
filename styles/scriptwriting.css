@@ -1,0 +1,122 @@
+:root {
+  --popins-font: "Poppins", Arial, Helvetica, sans-serif;
+  --funnel-font: "Funnel sans", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+
+  overflow-y: hidden;
+}
+
+body {
+  background-color: #fefae0;
+  background-color: #caf0f8;
+}
+
+/* JS classes */
+.hidden {
+  display: none;
+}
+/* HERO styles */
+
+.nav--header {
+  margin-top: 1.2rem;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 4.5rem;
+  font-family: var(--funnel-font);
+  margin-left: 2.4rem;
+  font-weight: 600;
+}
+
+.script-writing-nav {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.script-writing-nav li {
+  font-size: 2.4rem;
+  font-family: var(--popins-font);
+  padding: 1.2rem 2.4rem;
+}
+
+.scriptName {
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.scriptModal {
+  background-color: #a2d2ff;
+  color: #222;
+  border-radius: 11px;
+}
+
+.save-btn {
+  margin-right: 6.4rem;
+  background-color: #6a994e;
+  border-radius: 11px;
+}
+
+/* ************** SCRIPT EDITOR styles ***************/
+
+.sec--holder {
+  display: grid;
+  grid-template-columns: 27rem 1fr 25rem;
+  grid-template-rows: 1fr;
+
+  margin-top: 2.4rem;
+}
+
+.feature--holder {
+  padding: 2.4rem;
+  background-color: #fff;
+
+  border-top: 2px solid #222;
+}
+
+.scriptEditor {
+  background-color: #fefae0;
+
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+  border-top: 2px solid #222;
+}
+
+.scriptEditor div {
+  width: 90%;
+  max-width: 1000px;
+  height: 85vh;
+
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* SCRIPT EDITOR styles */
+
+.scriptTextEditor {
+  padding: 4.8rem 3.6rem;
+  padding-top: 3.6rem;
+  font-size: 2.2rem;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.scriptTextEditor:focus {
+  outline: none;
+}
+
+/* FEATURES SECTION styles */
+
+aside {
+  background-color: #fff;
+
+  padding-top: 2.4rem;
+  padding-left: 1.2rem;
+  border-top: 2px solid #222;
+}

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Nav styles */
+:root {
+  --popins-font: "Poppins", Arial, Helvetica, sans-serif;
+  --funnel-font: "Funnel sans", sans-serif;
+}
+
+body {
+  background-color: #111;
+
+  color: #f2f2f2;
+}
+
+.nav--header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+
+.logo {
+  font-size: 4.5rem;
+  font-family: var(--funnel-font);
+  margin-left: 2.4rem;
+  font-weight: 600;
+}
+
+.nav-cont {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 6.4rem;
+  margin-right: 6.4rem;
+}
+
+.nav-cont li {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--popins-font);
+}
+
+.nav--link:link,
+.nav--link:visited {
+  text-decoration: none;
+  color: #f2f2f2;
+
+  transition: all 0.3s;
+}
+
+.nav--link:hover,
+.nav--link:active {
+  color: #c1121f;
+}
+
+.log--btn:link,
+.log--btn:visited {
+  text-decoration: none;
+  color: #ccff00;
+
+  padding: 0.8rem 1.6rem;
+  border-radius: 24px;
+
+  transition: all 0.3s;
+}
+
+.log--btn:hover,
+.log--btn:active {
+  color: #c1121f;
+}
+
+/* HERO section  styles*/
+
+h1 {
+  font-size: 6.4rem;
+  text-align: center;
+  color: #f2e8cf;
+  letter-spacing: -0.25px;
+
+  font-family: var(--funnel-font);
+}
+
+.hero-standout {
+  font-style: italic;
+  color: #fb5607;
+}
+
+.hero-standout2 {
+  font-style: oblique;
+  color: #b9fbc0;
+}
+
+.hero-btn-cont {
+  margin-top: 6.4rem;
+}
+.btn {
+  font-family: var(--popins-font);
+  font-size: 2rem;
+  padding: 1.2rem 2.4rem;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: rgb(218, 237, 110);
+  color: #111;
+  box-shadow: 0 0 0 5px rgba(218, 237, 110, 0.2);
+  animation: alert 2s infinite linear;
+}
+@keyframes alert {
+  0% {
+    box-shadow: 0 0 0 0px rgba(218, 237, 110, 0.2);
+  }
+  80% {
+    box-shadow: 0 0 0 8px rgba(218, 237, 110, 0.2),
+      0 0 0 5px rgba(218, 237, 110, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 8px rgba(218, 237, 110, 0),
+      0 0 0 10px rgba(218, 237, 110, 0);
+  }
+}

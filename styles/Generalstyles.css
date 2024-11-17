@@ -1,0 +1,60 @@
+:root {
+  --popins-font: "Poppins", Arial, Helvetica, sans-serif;
+  --funnel-font: "Funnel sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 2rem;
+  font-family: var(--popins-font);
+}
+
+.l-h-normal {
+  line-height: 1.6;
+}
+.major--sec {
+  padding: 9.6rem 0;
+  margin: 0 auto;
+}
+
+.mx-100 {
+  max-width: 100rem;
+}
+
+/* MARGIN styles */
+
+.mt-md {
+  margin-top: 4.8rem;
+}
+
+/* MARGIN styles ends*/
+
+/* FLEX styles */
+
+.fd-c {
+  flex-direction: column;
+}
+.sm-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-a-c {
+  display: flex;
+  align-items: center;
+}
